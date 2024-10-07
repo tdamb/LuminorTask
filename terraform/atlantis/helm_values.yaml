@@ -1,0 +1,7 @@
+github:
+  user: "tdamb"
+  token: "<your-github-token>"
+  webhookSecret: "<your-webhook-secret>"
+
+service:
+  type: LoadBalancer
