@@ -8,6 +8,10 @@ variable "availability_zones" {
   type        = list(string)
 }
 
+variable "public_subnets" {
+  description = "CIDR blocks for public subnets."
+}
+
 variable "private_subnets" {
   description = "CIDR blocks for private subnets."
   type        = list(string)

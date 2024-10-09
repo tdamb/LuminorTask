@@ -37,3 +37,8 @@ variable "tags" {
   description = "Tags to apply to resources."
   type        = map(string)
 }
+
+variable "cluster_endpoint_public_access_cidrs" {
+  description = "The CIDR blocks for public access to the EKS cluster endpoint"
+  type        = list(string)
+}

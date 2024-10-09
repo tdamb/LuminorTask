@@ -4,4 +4,5 @@ github:
   webhookSecret: "<your-webhook-secret>"
 
 service:
+  name: "atlantis"
   type: LoadBalancer
